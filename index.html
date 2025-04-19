@@ -1,86 +1,78 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>[Asya Weston] | Portfolio</title>
-  <style>
-    body {
-      font-family: 'Segoe UI', sans-serif;
-      margin: 0;
-      padding: 0;
-      background-color: #fff9f9;
-      color: #333;
-    }
-    header {
-      background-color: #f8d1e0;
-      padding: 2rem;
-      text-align: center;
-      border-bottom: 4px solid #e9a9c3;
-    }
-    header h1 {
-      margin: 0;
-      font-size: 2.5rem;
-    }
-    nav {
-      margin-top: 1rem;
-    }
-    nav a {
-      margin: 0 1rem;
-      text-decoration: none;
-      color: #444;
-    }
-    .section {
-      padding: 2rem;
-      max-width: 800px;
-      margin: 0 auto;
-    }
-    .section h2 {
-      border-bottom: 2px solid #f8d1e0;
-      padding-bottom: 0.5rem;
-    }
-    footer {
-      text-align: center;
-      padding: 1rem;
-      background-color: #f8d1e0;
-      margin-top: 2rem;
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Portfolio</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header>
-    <h1>[Asya Weston]</h1>
+    <!-- Header Section -->
+    <header>
+        <div class="header-content">
+            <img src="your-photo.jpg" alt="Your photo" class="profile-photo">
+            <div class="header-text">
+                <h1>Your Name</h1>
+                <p class="tagline">Tech Enthusiast | Aspiring Lawyer | Future Innovator</p>
+            </div>
+        </div>
+    </header>
+
+    <!-- Navigation Section -->
     <nav>
-      <a href="#projects">Projects</a>
-      <a href="#about">About</a>
-      <a href="#contact">Contact</a>
+        <ul>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#resume">Resume</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
     </nav>
-  </header>
 
-  <section class="section" id="projects">
-    <h2>Projects</h2>
-    <h3>🌸 Pink Journal App</h3>
-    <p>An elegant and supportive journaling app for women in menopause and perimenopause. Built with HTML/CSS/JS and deployed on Replit.</p>
-    <a href="https://github.com/Techne-Asya/pink-journal" target="_blank">View on GitHub</a>
+    <!-- About Section -->
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Short bio here — your journey from healthcare to tech and law.</p>
+    </section>
 
-    <h3>⚖️ Legal Case Brief App</h3>
-    <p>Case briefing tool with planned AI citation and export options for law students and legal professionals.</p>
-    <a href="https://github.com/TechneAsya/legal-case-briefs" target="_blank">View on GitHub</a>
-  </section>
+    <!-- Projects Section -->
+    <section id="projects">
+        <h2>My Projects</h2>
+        <div class="project">
+            <h3>Menopause Journal App</h3>
+            <p>Description of your project and features. <a href="#">View Demo</a></p>
+        </div>
+        <div class="project">
+            <h3>Legal Case Briefing App</h3>
+            <p>Description of your legal app and its potential features. <a href="#">Coming Soon</a></p>
+        </div>
+    </section>
 
-  <section class="section" id="about">
-    <h2>About</h2>
-    <p>I'm a nurse and educator with 13+ years in healthcare, now transitioning into tech. I'm passionate about designing useful and beautiful tools that make life better. Currently studying Computer Science and building real-world apps to help people thrive.</p>
-  </section>
+    <!-- Resume Section -->
+    <section id="resume">
+        <h2>Resume</h2>
+        <p>Click below to download my resume:</p>
+        <a href="your-resume.pdf" class="resume-button" download>Download Resume</a>
+    </section>
 
-  <section class="section" id="contact">
-    <h2>Contact</h2>
-    <p>Email: Techne.Asya@gmail.com</p>
-    <p>GitHub: <a href="https://github.com/Techne-Asya" target="_blank">@Techne-Asya</a></p>
-  </section>
+    <!-- Skills Section -->
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>Python, JavaScript, HTML/CSS</li>
+            <li>GitHub, Replit, VS Code</li>
+            <li>Legal Research & Analysis</li>
+        </ul>
+    </section>
 
-  <footer>
-    &copy; 2025 [Asya Weston]. All rights reserved.
-  </footer>
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p>Email: <a href="mailto:your-email@example.com">your-email@example.com</a></p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/your-profile" target="_blank">LinkedIn Profile</a></p>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Your Name. All rights reserved.</p>
+    </footer>
 </body>
 </html>
