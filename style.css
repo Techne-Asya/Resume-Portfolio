@@ -1,8 +1,8 @@
 /* Body Styles */
 body {
-    font-family: 'Arial', sans-serif; /* Clean and modern font */
-    color: #333; /* Dark text for readability */
-    background-color: #fff; /* White background for simplicity */
+    font-family: 'Arial', sans-serif; /* Clean, modern font */
+    color: #fff; /* White text for readability on dark background */
+    background-color: #000; /* Dark background for bold contrast */
     line-height: 1.6;
     margin: 0;
     padding: 0;
@@ -10,35 +10,40 @@ body {
 
 /* Header */
 header {
-    background-color: #000; /* Black background for bold contrast */
-    color: #fff; /* White text for readability */
+    background-image: url('path-to-your-black-and-white-image.jpg'); /* Background image in black and white */
+    background-size: cover;
+    background-position: center;
+    color: #fff;
     text-align: center;
     padding: 60px 0;
+    filter: grayscale(100%); /* Grayscale filter to make it black and white */
+    box-shadow: inset 0px 0px 50px rgba(0, 0, 0, 0.7); /* Darkens the header to make text pop */
 }
 
-.header-content {
+header .header-content {
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
-    flex-direction: column;
 }
 
 .profile-photo {
-    width: 160px;
-    height: 160px;
+    width: 180px;
+    height: 180px;
     border-radius: 50%;
-    border: 5px solid #fff; /* White border around the image */
-    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.15);
+    border: 5px solid #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     margin-bottom: 20px;
 }
 
 .header-text h1 {
-    font-size: 2.8rem;
+    font-size: 3rem;
     font-weight: bold;
+    margin: 10px 0;
 }
 
 .tagline {
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     font-style: italic;
 }
 
@@ -46,7 +51,7 @@ header {
 nav ul {
     display: flex;
     justify-content: center;
-    background-color: #000; /* Dark background for contrast */
+    background-color: rgba(0, 0, 0, 0.8); /* Semi-transparent black background */
     padding: 15px;
     list-style-type: none;
 }
@@ -89,14 +94,14 @@ h2 {
 
 .project a {
     text-decoration: none;
-    color: #000; /* Black text for links */
+    color: #000;
     font-weight: bold;
     font-size: 1.1rem;
 }
 
 .project a:hover {
-    color: #fff; /* White text on hover */
-    background-color: #000; /* Black background on hover */
+    color: #fff;
+    background-color: #000;
 }
 
 /* Resume Button */
@@ -108,18 +113,18 @@ h2 {
     font-size: 1.2rem;
     border-radius: 5px;
     transition: background-color 0.3s;
-    border: 2px solid #fff; /* White border to match theme */
+    border: 2px solid #fff;
 }
 
 .resume-button:hover {
-    background-color: #fff; /* White background on hover */
-    color: #000; /* Black text on hover */
+    background-color: #fff;
+    color: #000;
 }
 
 /* Footer */
 footer {
-    background-color: #000; /* Black footer for consistency */
-    color: #fff; /* White text */
+    background-color: #000;
+    color: #fff;
     padding: 25px;
     text-align: center;
     font-size: 1rem;
