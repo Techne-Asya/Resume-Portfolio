@@ -1,8 +1,8 @@
 /* Body Styles */
 body {
-    font-family: 'Arial', sans-serif; /* Clean, modern font */
-    color: #fff; /* White text for readability on dark background */
-    background-color: #000; /* Dark background for bold contrast */
+    font-family: 'Arial', sans-serif;
+    color: #333; /* Dark grey text for readability */
+    background-color: #f4f4f4; /* Off-white background */
     line-height: 1.6;
     margin: 0;
     padding: 0;
@@ -10,14 +10,10 @@ body {
 
 /* Header */
 header {
-    background-image: url('path-to-your-black-and-white-image.jpg'); /* Background image in black and white */
-    background-size: cover;
-    background-position: center;
+    background-color: #1e1e1e; /* Matte black background */
     color: #fff;
     text-align: center;
     padding: 60px 0;
-    filter: grayscale(100%); /* Grayscale filter to make it black and white */
-    box-shadow: inset 0px 0px 50px rgba(0, 0, 0, 0.7); /* Darkens the header to make text pop */
 }
 
 header .header-content {
@@ -31,8 +27,8 @@ header .header-content {
     width: 180px;
     height: 180px;
     border-radius: 50%;
-    border: 5px solid #fff;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    border: 5px solid #fff; /* White border around photo */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Soft shadow */
     margin-bottom: 20px;
 }
 
@@ -45,13 +41,14 @@ header .header-content {
 .tagline {
     font-size: 1.5rem;
     font-style: italic;
+    color: #bbb; /* Light grey tagline */
 }
 
 /* Navigation */
 nav ul {
     display: flex;
     justify-content: center;
-    background-color: rgba(0, 0, 0, 0.8); /* Semi-transparent black background */
+    background-color: #333; /* Dark grey background */
     padding: 15px;
     list-style-type: none;
 }
@@ -67,7 +64,7 @@ nav a {
 }
 
 nav a:hover {
-    color: #000; /* Black text on hover */
+    color: #333; /* Dark grey text on hover */
     background-color: #fff; /* White background on hover */
 }
 
@@ -75,16 +72,16 @@ nav a:hover {
 section {
     padding: 50px 30px;
     text-align: center;
-    background-color: #fff; /* White background for clarity */
+    background-color: #fff; /* Off-white background for sections */
     margin: 10px 0;
     border-radius: 8px;
-    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
 }
 
 h2 {
     font-size: 2.2rem;
     margin-bottom: 30px;
-    color: #333;
+    color: #333; /* Dark grey heading text */
 }
 
 /* Projects Section */
@@ -94,36 +91,36 @@ h2 {
 
 .project a {
     text-decoration: none;
-    color: #000;
+    color: #333; /* Dark grey text for links */
     font-weight: bold;
     font-size: 1.1rem;
 }
 
 .project a:hover {
     color: #fff;
-    background-color: #000;
+    background-color: #333; /* Dark grey background on hover */
 }
 
 /* Resume Button */
 .resume-button {
-    background-color: #000;
+    background-color: #333; /* Dark grey button */
     color: #fff;
     padding: 12px 30px;
     text-decoration: none;
     font-size: 1.2rem;
     border-radius: 5px;
     transition: background-color 0.3s;
-    border: 2px solid #fff;
+    border: 2px solid #fff; /* White border for button */
 }
 
 .resume-button:hover {
-    background-color: #fff;
-    color: #000;
+    background-color: #fff; /* White background on hover */
+    color: #333; /* Dark grey text */
 }
 
 /* Footer */
 footer {
-    background-color: #000;
+    background-color: #1e1e1e; /* Matte black footer */
     color: #fff;
     padding: 25px;
     text-align: center;
