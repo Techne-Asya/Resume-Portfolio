@@ -2,7 +2,7 @@ body {
     font-family: 'Lora', sans-serif;
     margin: 0;
     padding: 0;
-    color: #1e1e1e;
+    color: hsl(320, 59%, 66%);
     background-image: url('My files/Downloads/background.png'); /* or 'assets/background-pattern.png' */
     background-size: cover;
     background-position: center;
@@ -49,14 +49,14 @@ body {
     margin-top: 20px;
     background: #fff4ef;
     padding: 20px;
-    border-left: 4px solid #d64500;
+    border-left: 4px solid #efebed;
     border-radius: 8px;
   }
   
   footer {
     text-align: center;
     padding: 30px;
-    background-color: #1e1e1e;
+    background-color: #8c1568;
     color: #fff;
   }
   
