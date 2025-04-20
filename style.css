@@ -6,6 +6,13 @@ body {
     line-height: 1.6;
     margin: 0;
     padding: 0;
+  background-image: url('assets/background-pattern.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
 }
 
 /* Header */
