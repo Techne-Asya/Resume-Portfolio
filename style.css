@@ -1,139 +1,16 @@
 /* Body Styles */
 body {
-    #font-family: 'Arial', sans-serif;
+    font-family: 'Arial', sans-serif;
     color: #333; /* Dark grey text for readability */
-    background-color: #f4f4f4; /* Off-white background */
+    background-color: #f4f4f4; /* Off-white fallback */
     line-height: 1.6;
     margin: 0;
     padding: 0;
-  background-image: url('assets/background-pattern.png');
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
+
+    background-image: url('assets/background-pattern.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
-}
-
-/* Header */
-header {
-    background-color: #1e1e1e; /* Matte black background */
-    color: #fff;
-    text-align: center;
-    padding: 60px 0;
-}
-
-header .header-content {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-
-.profile-photo {
-    width: 180px;
-    height: 180px;
-    border-radius: 50%;
-    border: 5px solid #fff; /* White border around photo */
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Soft shadow */
-    margin-bottom: 20px;
-}
-
-.header-text h1 {
-    font-size: 3rem;
-    font-weight: bold;
-    margin: 10px 0;
-}
-
-.tagline {
-    font-size: 1.5rem;
-    font-style: italic;
-    color: #bbb; /* Light grey tagline */
-}
-
-/* Navigation */
-nav ul {
-    display: flex;
-    justify-content: center;
-    background-color: #333; /* Dark grey background */
-    padding: 15px;
-    list-style-type: none;
-}
-
-nav li {
-    margin: 0 25px;
-}
-
-nav a {
-    color: #fff;
-    text-decoration: none;
-    font-size: 1.1rem;
-}
-
-nav a:hover {
-    color: #333; /* Dark grey text on hover */
-    background-color: #fff; /* White background on hover */
-}
-
-/* Section Styles */
-section {
-    padding: 50px 30px;
-    text-align: center;
-    background-color: #fff; /* Off-white background for sections */
-    margin: 10px 0;
-    border-radius: 8px;
-    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
-}
-
-h2 {
-    font-size: 2.2rem;
-    margin-bottom: 30px;
-    color: #333; /* Dark grey heading text */
-}
-
-/* Projects Section */
-.project {
-    margin-bottom: 40px;
-}
-
-.project a {
-    text-decoration: none;
-    color: #333; /* Dark grey text for links */
-    font-weight: bold;
-    font-size: 1.1rem;
-}
-
-.project a:hover {
-    color: #fff;
-    background-color: #333; /* Dark grey background on hover */
-}
-
-/* Resume Button */
-.resume-button {
-    background-color: #333; /* Dark grey button */
-    color: #fff;
-    padding: 12px 30px;
-    text-decoration: none;
-    font-size: 1.2rem;
-    border-radius: 5px;
-    transition: background-color 0.3s;
-    border: 2px solid #fff; /* White border for button */
-}
-
-.resume-button:hover {
-    background-color: #fff; /* White background on hover */
-    color: #333; /* Dark grey text */
-}
-
-/* Footer */
-footer {
-    background-color: #1e1e1e; /* Matte black footer */
-    color: #fff;
-    padding: 25px;
-    text-align: center;
-    font-size: 1rem;
-}
-
-footer p {
-    margin: 0;
-}
